@@ -1,6 +1,4 @@
-# This file uses the version 2 docker-compose file format, described here:
-# https://docs.docker.com/compose/compose-file/#version-2
-#
+
 # This runs the zipkin and zipkin-mysql containers, using docker-compose's
 # default networking to wire the containers together.
 #
