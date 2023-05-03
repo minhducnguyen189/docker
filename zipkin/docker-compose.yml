@@ -20,7 +20,7 @@ services:
     # ports:
     #   - 3306:3306
     volumes:
-    - ./mysql-data:/var/lib/mysql:rw
+      - ./mysql-data:/var/lib/mysql:rw
 
   # The zipkin process services the UI, and also exposes a POST endpoint that
   # instrumentation can send trace data to. Scribe is disabled by default.
