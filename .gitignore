@@ -4,3 +4,6 @@
 */data
 jenkins/docker
 */jenkins
+
+kafka-kafka-manager/kafka
+kafka-kafka-manager/zookeeper
