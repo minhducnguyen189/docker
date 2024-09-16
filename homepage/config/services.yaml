@@ -2,17 +2,27 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
+- Media:
     - My First Service:
         href: http://localhost/
         description: Homepage is awesome
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Documents:
+    - 2D Garden:
+        icon: si-materialformkdocs-#526CFE
+        href: https://2dgarden.com/
+        description: Digital Garden
+    - File Browser:
+        icon: si-files-#4285F4
+        href: http://100.123.47.28:7979
+        description: File Browser
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- Utilities:
+    - Tailscale:
+        icon: si-tailscale-#242424
+        href: https://login.tailscale.com/admin/machines
+        description: Tailscale VPN Admin
+    - Excalidraw:
+        icon: si-excalidraw-#6965DB
+        href: http://100.123.47.28:3001/
+        description: Excalidraw
