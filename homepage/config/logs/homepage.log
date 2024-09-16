@@ -1,0 +1,95 @@
+[2024-09-15T17:55:19.988Z] info: docker.yaml was copied to the config folder
+[2024-09-15T17:55:20.005Z] info: services.yaml was copied to the config folder
+[2024-09-15T17:55:20.011Z] info: bookmarks.yaml was copied to the config folder
+[2024-09-15T17:55:20.015Z] info: widgets.yaml was copied to the config folder
+[2024-09-15T17:55:20.017Z] info: custom.css was copied to the config folder
+[2024-09-15T17:55:20.020Z] info: custom.js was copied to the config folder
+[2024-09-15T17:55:20.502Z] info: kubernetes.yaml was copied to the config folder
+[2024-09-15T17:57:43.711Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-09-15T17:57:43.712Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.715Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-15T17:57:43.715Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.726Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-15T17:57:43.726Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.737Z] error: <index> YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (/app/.next/server/chunks/1227.js:109:75)
+    at getStaticProps (/app/.next/server/pages/index.js:3089:101)
+    at Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/render.js:386:26)
+[2024-09-15T17:57:43.812Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-15T17:57:43.812Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.814Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-09-15T17:57:43.814Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.816Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-15T17:57:43.816Z] error: YAMLException: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
+[2024-09-15T17:57:43.852Z] error: bad indentation of a mapping entry (7:8)
+
+ 4 | 
+ 5 | title: My Awesome Homepage
+ 6 | background: https://images.unsplash.com ...
+ 7 |   image: /images/background.png
+------------^
+ 8 |   blur: sm # sm, "", md, xl... see http ...
+ 9 |   saturate: 50 # 0, 50, 100... see http ...
