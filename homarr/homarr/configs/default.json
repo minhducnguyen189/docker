@@ -12,168 +12,6 @@
   ],
   "apps": [
     {
-      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
-      "name": "Github",
-      "url": "https://github.com/minhducnguyen189",
-      "behaviour": {
-        "onClickUrl": "https://github.com/ajnart/homarr",
-        "externalUrl": "https://github.com/minhducnguyen189",
-        "isOpeningNewTab": true,
-        "tooltipDescription": ""
-      },
-      "network": {
-        "enabledStatusChecker": false,
-        "statusCodes": []
-      },
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/github.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 2,
-        "appNameFontSize": 16
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 3,
-            "y": 2
-          },
-          "size": {
-            "width": 2,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 1,
-            "y": 3
-          },
-          "size": {
-            "width": 2,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 3,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
-      "id": "a419daae-a7a1-40ff-9dce-717b6ff40964",
-      "name": "Unsplash",
-      "url": "https://unsplash.com/@skyline_189",
-      "appearance": {
-        "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/brand-unsplash.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://unsplash.com/@skyline_189"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 4,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "ae17dc52-ed3f-47d2-81fa-fe22ce1ec505",
-      "name": "File Browser",
-      "url": "http://100.123.47.28:7979",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://100.123.47.28:7979"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 2,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
       "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
       "name": "Digital Garden",
       "url": "https://2dgarden.com",
@@ -288,6 +126,58 @@
       }
     },
     {
+      "id": "57203b2c-d6df-467f-8335-2d5751436ec3",
+      "name": "it-tools",
+      "url": "http://duc-server.tail43ac53.ts.net:8085",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:8085"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "port": 8085,
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
+      "wrapperId": "default"
+    },
+    {
       "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
       "name": "Youtube",
       "url": "https://youtube.com",
@@ -339,7 +229,7 @@
     {
       "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
       "name": "Excalidraw",
-      "url": "http://100.123.47.28:3001",
+      "url": "http://duc-server.tail43ac53.ts.net:3001",
       "appearance": {
         "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
         "appNameStatus": "normal",
@@ -360,7 +250,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://100.123.47.28:3001/"
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
       },
       "area": {
         "type": "wrapper",
@@ -422,6 +312,217 @@
           "location": {
             "x": 2,
             "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "ae17dc52-ed3f-47d2-81fa-fe22ce1ec505",
+      "name": "File Browser",
+      "url": "http://duc-server.tail43ac53.ts.net:7979",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:7979"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
+      "name": "Github",
+      "url": "https://github.com/minhducnguyen189",
+      "behaviour": {
+        "onClickUrl": "https://github.com/ajnart/homarr",
+        "externalUrl": "https://github.com/minhducnguyen189",
+        "isOpeningNewTab": true,
+        "tooltipDescription": ""
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": []
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/github.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 2,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 3,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "4367b501-b76a-4275-aade-2bdac072d295",
+      "name": "Nginx Proxy Admin",
+      "url": "http://duc-server.tail43ac53.ts.net:81",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nginx-proxy-manager.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:81"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a419daae-a7a1-40ff-9dce-717b6ff40964",
+      "name": "Unsplash",
+      "url": "https://unsplash.com/@skyline_189",
+      "appearance": {
+        "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/brand-unsplash.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://unsplash.com/@skyline_189"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 1
           },
           "size": {
             "width": 1,
