@@ -12,71 +12,6 @@
   ],
   "apps": [
     {
-      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
-      "name": "Digital Garden",
-      "url": "https://2dgarden.com",
-      "behaviour": {
-        "onClickUrl": "https://homarr.dev",
-        "externalUrl": "https://2dgarden.com/",
-        "isOpeningNewTab": true
-      },
-      "network": {
-        "enabledStatusChecker": false,
-        "statusCodes": [
-          "200"
-        ]
-      },
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 2
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 5,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
       "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
       "name": "Github",
       "url": "https://github.com/minhducnguyen189",
@@ -93,7 +28,7 @@
       "appearance": {
         "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/github.png",
         "appNameStatus": "normal",
-        "positionAppName": "row-reverse",
+        "positionAppName": "column-reverse",
         "lineClampAppName": 2,
         "appNameFontSize": 16
       },
@@ -130,11 +65,11 @@
         },
         "lg": {
           "location": {
-            "x": 2,
-            "y": 0
+            "x": 3,
+            "y": 2
           },
           "size": {
-            "width": 2,
+            "width": 1,
             "height": 1
           }
         }
@@ -147,7 +82,7 @@
       "appearance": {
         "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/brand-unsplash.png",
         "appNameStatus": "normal",
-        "positionAppName": "column",
+        "positionAppName": "column-reverse",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
@@ -175,56 +110,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 2,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "c8dee350-37e1-41f3-bf50-e7eff2508130",
-      "name": "Tailscale",
-      "url": "https://login.tailscale.com/admin/machines",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tailscale-light.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://login.tailscale.com/admin/machines"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 3,
+            "x": 4,
             "y": 1
           },
           "size": {
@@ -245,7 +131,7 @@
       "appearance": {
         "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
         "appNameStatus": "normal",
-        "positionAppName": "column",
+        "positionAppName": "column-reverse",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
@@ -263,6 +149,169 @@
       "behaviour": {
         "isOpeningNewTab": true,
         "externalUrl": "http://100.123.47.28:7979"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "name": "Digital Garden",
+      "url": "https://2dgarden.com",
+      "behaviour": {
+        "onClickUrl": "https://homarr.dev",
+        "externalUrl": "https://2dgarden.com/",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.udemy.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
+      "name": "Youtube",
+      "url": "https://youtube.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube-kids.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://youtube.com/"
       },
       "area": {
         "type": "wrapper",
@@ -294,7 +343,7 @@
       "appearance": {
         "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
         "appNameStatus": "normal",
-        "positionAppName": "column",
+        "positionAppName": "column-reverse",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
@@ -322,7 +371,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 4,
+            "x": 3,
             "y": 1
           },
           "size": {
@@ -337,13 +386,13 @@
       }
     },
     {
-      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
-      "name": "Udemy",
-      "url": "https://www.udemy.com/home/my-courses/learning",
+      "id": "c8dee350-37e1-41f3-bf50-e7eff2508130",
+      "name": "Tailscale",
+      "url": "https://login.tailscale.com/admin/machines",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/tailscale-light.png",
         "appNameStatus": "normal",
-        "positionAppName": "column",
+        "positionAppName": "column-reverse",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
@@ -360,7 +409,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://www.udemy.com/home/my-courses/learning/"
+        "externalUrl": "https://login.tailscale.com/admin/machines"
       },
       "area": {
         "type": "wrapper",
@@ -371,8 +420,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 5,
-            "y": 1
+            "x": 2,
+            "y": 2
           },
           "size": {
             "width": 1,
@@ -387,6 +436,103 @@
     }
   ],
   "widgets": [
+    {
+      "id": "be8227d3-2a5a-4a34-a99d-9567e83c0c5f",
+      "type": "calendar",
+      "properties": {
+        "hideWeekDays": true,
+        "showUnmonitored": false,
+        "radarrReleaseType": "inCinemas",
+        "fontSize": "xs"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "bea03dc2-bb3c-4b32-a567-cc82d759adaf",
+      "type": "date",
+      "properties": {
+        "timezone": "Asia/Saigon",
+        "customTitle": "",
+        "display24HourFormat": false,
+        "dateFormat": "dddd, MMMM D",
+        "titleState": "both"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
     {
       "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
       "type": "weather",
@@ -431,7 +577,7 @@
         "lg": {
           "location": {
             "x": 0,
-            "y": 0
+            "y": 3
           },
           "size": {
             "width": 2,
@@ -441,18 +587,31 @@
       }
     },
     {
-      "id": "971aa859-8570-49a1-8d34-dd5c7b3638d1",
-      "type": "date",
+      "id": "46bde47e-fc3d-4e13-ada7-e30d17ad066e",
+      "type": "bookmark",
       "properties": {
-        "display24HourFormat": true,
-        "dateFormat": "hide",
-        "enableTimezone": false,
-        "timezoneLocation": {
-          "name": "Paris",
-          "latitude": 48.85341,
-          "longitude": 2.3488
-        },
-        "titleState": "city"
+        "name": "Bookmarks",
+        "items": [
+          {
+            "id": "78df9e54-1326-4c44-8f27-0dab587b1eba",
+            "name": "TinhTe",
+            "href": "https://tinhte.vn/",
+            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
+            "openNewTab": true,
+            "hideHostname": false,
+            "hideIcon": false
+          },
+          {
+            "id": "0dc7482f-3422-431c-b496-45d88b174151",
+            "name": "Baeldung",
+            "href": "https://www.baeldung.com/",
+            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
+            "openNewTab": true,
+            "hideHostname": false,
+            "hideIcon": false
+          }
+        ],
+        "layout": "vertical"
       },
       "area": {
         "type": "wrapper",
@@ -463,7 +622,7 @@
       "shape": {
         "sm": {
           "location": {
-            "x": 1,
+            "x": 0,
             "y": 0
           },
           "size": {
@@ -473,7 +632,7 @@
         },
         "md": {
           "location": {
-            "x": 4,
+            "x": 0,
             "y": 0
           },
           "size": {
@@ -483,8 +642,8 @@
         },
         "lg": {
           "location": {
-            "x": 0,
-            "y": 1
+            "x": 8,
+            "y": 0
           },
           "size": {
             "width": 2,
@@ -512,14 +671,14 @@
       "pageTitle": "Homarr ⭐️",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared.png",
-      "backgroundImageUrl": "",
+      "backgroundImageUrl": "https://r4.wallpaperflare.com/wallpaper/650/785/115/nebula-stars-space-green-wallpaper-5bf62cbd0391bfe96524fbf94d0cec50.jpg",
       "customCss": "",
       "colors": {
         "primary": "red",
         "secondary": "yellow",
         "shade": 7
       },
-      "appOpacity": 100,
+      "appOpacity": 80,
       "gridstack": {
         "columnCountSmall": 3,
         "columnCountMedium": 6,
