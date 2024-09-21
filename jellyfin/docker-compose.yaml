@@ -1,16 +1,17 @@
+---
 services:
   jellyfin:
     image: jellyfin/jellyfin
     container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
     volumes:
       - ./config:/config
       - ./cache:/cache
-      - type: bind
-        source: /home/duc/Videos
-        target: /media
-      - type: bind
-        source: /home/duc/Music
-        target: /media2
+      - /home/duc/Music:/data/music
+      - /home/duc/Videos:/data/videos
     ports:
-      - 8096:8096    
+      - 8096:8096
     restart: 'unless-stopped'

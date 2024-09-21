@@ -10,7 +10,7 @@
   <ExtractTrickplayImagesDuringLibraryScan>false</ExtractTrickplayImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
-      <Path>/data/music</Path>
+      <Path>/data/videos</Path>
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>
@@ -38,60 +38,58 @@
   <AllowEmbeddedSubtitles>AllowAll</AllowEmbeddedSubtitles>
   <TypeOptions>
     <TypeOptions>
-      <Type>MusicArtist</Type>
+      <Type>Series</Type>
       <MetadataFetchers>
-        <string>MusicBrainz</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
       </MetadataFetchers>
       <MetadataFetcherOrder>
-        <string>TheAudioDB</string>
-        <string>MusicBrainz</string>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
       </MetadataFetcherOrder>
       <ImageFetchers>
-        <string>TheAudioDB</string>
+        <string>TheMovieDb</string>
       </ImageFetchers>
       <ImageFetcherOrder>
-        <string>TheAudioDB</string>
+        <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
     </TypeOptions>
     <TypeOptions>
-      <Type>MusicAlbum</Type>
+      <Type>Season</Type>
       <MetadataFetchers>
-        <string>MusicBrainz</string>
+        <string>TheMovieDb</string>
       </MetadataFetchers>
       <MetadataFetcherOrder>
-        <string>MusicBrainz</string>
-        <string>TheAudioDB</string>
+        <string>TheMovieDb</string>
       </MetadataFetcherOrder>
       <ImageFetchers>
-        <string>TheAudioDB</string>
+        <string>TheMovieDb</string>
       </ImageFetchers>
       <ImageFetcherOrder>
-        <string>TheAudioDB</string>
+        <string>TheMovieDb</string>
       </ImageFetcherOrder>
       <ImageOptions />
     </TypeOptions>
     <TypeOptions>
-      <Type>Audio</Type>
-      <MetadataFetchers />
-      <MetadataFetcherOrder />
+      <Type>Episode</Type>
+      <MetadataFetchers>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetchers>
+      <MetadataFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
+      </MetadataFetcherOrder>
       <ImageFetchers>
-        <string>Image Extractor</string>
-      </ImageFetchers>
-      <ImageFetcherOrder>
-        <string>Image Extractor</string>
-      </ImageFetcherOrder>
-      <ImageOptions />
-    </TypeOptions>
-    <TypeOptions>
-      <Type>MusicVideo</Type>
-      <MetadataFetchers />
-      <MetadataFetcherOrder />
-      <ImageFetchers>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
         <string>Embedded Image Extractor</string>
         <string>Screen Grabber</string>
       </ImageFetchers>
       <ImageFetcherOrder>
+        <string>TheMovieDb</string>
+        <string>The Open Movie Database</string>
         <string>Embedded Image Extractor</string>
         <string>Screen Grabber</string>
       </ImageFetcherOrder>
