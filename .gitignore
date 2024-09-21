@@ -5,6 +5,7 @@
 */init-data
 jenkins/docker
 */jenkins
+fresh-rss/config
 
 kafka-kafka-manager/kafka
 kafka-kafka-manager/zookeeper
