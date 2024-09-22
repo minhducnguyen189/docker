@@ -46,8 +46,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 2,
-            "y": 1
+            "x": 6,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -58,6 +58,71 @@
       "integration": {
         "type": null,
         "properties": []
+      }
+    },
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "name": "Digital Garden",
+      "url": "https://2dgarden.com",
+      "behaviour": {
+        "onClickUrl": "https://homarr.dev",
+        "externalUrl": "https://2dgarden.com/",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
       }
     },
     {
@@ -95,7 +160,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 4,
+            "x": 2,
             "y": 1
           },
           "size": {
@@ -146,254 +211,6 @@
           "location": {
             "x": 4,
             "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "57203b2c-d6df-467f-8335-2d5751436ec3",
-      "name": "it-tools",
-      "url": "http://duc-server.tail43ac53.ts.net:8085",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:8085"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 2,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      },
-      "port": 8085,
-      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
-      "wrapperId": "default"
-    },
-    {
-      "id": "ae17dc52-ed3f-47d2-81fa-fe22ce1ec505",
-      "name": "File Browser",
-      "url": "http://duc-server.tail43ac53.ts.net:7979",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:7979"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 3,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
-      "name": "Excalidraw",
-      "url": "http://duc-server.tail43ac53.ts.net:3001",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 4,
-            "y": 2
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "4367b501-b76a-4275-aade-2bdac072d295",
-      "name": "Nginx Proxy Admin",
-      "url": "http://duc-server.tail43ac53.ts.net:81",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nginx-proxy-manager.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:81"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 2,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "4d23b5c3-318d-4263-9ed6-11da6ead6fc7",
-      "name": "Jellyfin",
-      "url": "http://duc-server.tail43ac53.ts.net:8096",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/jellyfin.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:8096"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 5,
-            "y": 1
           },
           "size": {
             "width": 1,
@@ -571,30 +388,30 @@
       }
     },
     {
-      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
-      "name": "Digital Garden",
-      "url": "https://2dgarden.com",
-      "behaviour": {
-        "onClickUrl": "https://homarr.dev",
-        "externalUrl": "https://2dgarden.com/",
-        "isOpeningNewTab": true
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200"
-        ]
-      },
+      "id": "4367b501-b76a-4275-aade-2bdac072d295",
+      "name": "Nginx Proxy Admin",
+      "url": "http://duc-server.tail43ac53.ts.net:81",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nginx-proxy-manager.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
-      "integration": {
-        "type": null,
-        "properties": []
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:81"
       },
       "area": {
         "type": "wrapper",
@@ -603,36 +420,170 @@
         }
       },
       "shape": {
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 2
-          }
-        },
         "lg": {
           "location": {
-            "x": 3,
-            "y": 1
+            "x": 2,
+            "y": 2
           },
           "size": {
             "width": 1,
             "height": 1
           }
         }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "57203b2c-d6df-467f-8335-2d5751436ec3",
+      "name": "it-tools",
+      "url": "http://duc-server.tail43ac53.ts.net:8085",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:8085"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "port": 8085,
+      "icon": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/it-tools.svg",
+      "wrapperId": "default"
+    },
+    {
+      "id": "ae17dc52-ed3f-47d2-81fa-fe22ce1ec505",
+      "name": "File Browser",
+      "url": "http://duc-server.tail43ac53.ts.net:7979",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/filebrowser.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:7979"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "4d23b5c3-318d-4263-9ed6-11da6ead6fc7",
+      "name": "Jellyfin",
+      "url": "http://duc-server.tail43ac53.ts.net:8096",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/jellyfin.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:8096"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
       }
     },
     {
@@ -670,7 +621,56 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 5,
+            "x": 6,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
+      "name": "Excalidraw",
+      "url": "http://duc-server.tail43ac53.ts.net:3001",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
             "y": 2
           },
           "size": {
@@ -731,72 +731,6 @@
           "location": {
             "x": 0,
             "y": 3
-          },
-          "size": {
-            "width": 2,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
-      "id": "46bde47e-fc3d-4e13-ada7-e30d17ad066e",
-      "type": "bookmark",
-      "properties": {
-        "name": "Bookmarks",
-        "items": [
-          {
-            "id": "78df9e54-1326-4c44-8f27-0dab587b1eba",
-            "name": "TinhTe",
-            "href": "https://tinhte.vn/",
-            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
-            "openNewTab": true,
-            "hideHostname": false,
-            "hideIcon": false
-          },
-          {
-            "id": "0dc7482f-3422-431c-b496-45d88b174151",
-            "name": "Baeldung",
-            "href": "https://www.baeldung.com/",
-            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
-            "openNewTab": true,
-            "hideHostname": false,
-            "hideIcon": false
-          }
-        ],
-        "layout": "vertical"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "md": {
-          "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 8,
-            "y": 0
           },
           "size": {
             "width": 2,
@@ -894,6 +828,72 @@
           "location": {
             "x": 0,
             "y": 2
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "46bde47e-fc3d-4e13-ada7-e30d17ad066e",
+      "type": "bookmark",
+      "properties": {
+        "name": "Bookmarks",
+        "items": [
+          {
+            "id": "78df9e54-1326-4c44-8f27-0dab587b1eba",
+            "name": "TinhTe",
+            "href": "https://tinhte.vn/",
+            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
+            "openNewTab": true,
+            "hideHostname": false,
+            "hideIcon": false
+          },
+          {
+            "id": "0dc7482f-3422-431c-b496-45d88b174151",
+            "name": "Baeldung",
+            "href": "https://www.baeldung.com/",
+            "iconUrl": "https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/news.png",
+            "openNewTab": true,
+            "hideHostname": false,
+            "hideIcon": false
+          }
+        ],
+        "layout": "vertical"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
           },
           "size": {
             "width": 2,
