@@ -8,7 +8,7 @@ jenkins/docker
 fresh-rss/config
 jellyfin/config
 jellyfin/cache
-*/homarr/data
+homarr/homarr/data
 photoprism/database
 photoprism/storage
 nginx-proxy-manager/data
