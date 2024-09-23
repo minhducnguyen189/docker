@@ -12,120 +12,6 @@
   ],
   "apps": [
     {
-      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
-      "name": "Udemy",
-      "url": "https://www.udemy.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://www.udemy.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 6,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
-      "name": "Digital Garden",
-      "url": "https://2dgarden.com",
-      "behaviour": {
-        "onClickUrl": "https://homarr.dev",
-        "externalUrl": "https://2dgarden.com/",
-        "isOpeningNewTab": true
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200"
-        ]
-      },
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 2
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 7,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
       "id": "c8dee350-37e1-41f3-bf50-e7eff2508130",
       "name": "Tailscale",
       "url": "https://login.tailscale.com/admin/machines",
@@ -683,22 +569,81 @@
         "type": null,
         "properties": []
       }
-    }
-  ],
-  "widgets": [
+    },
     {
-      "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
-      "type": "weather",
-      "properties": {
-        "displayInFahrenheit": false,
-        "location": {
-          "name": "Ho Chi Minh City",
-          "latitude": 10.82302,
-          "longitude": 106.62965
-        },
-        "displayCityName": true,
-        "displayWeekly": false,
-        "forecastDays": 5
+      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.udemy.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "name": "Digital Garden",
+      "url": "https://2dgarden.com",
+      "behaviour": {
+        "onClickUrl": "https://homarr.dev",
+        "externalUrl": "https://2dgarden.com/",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
       },
       "area": {
         "type": "wrapper",
@@ -710,7 +655,7 @@
         "md": {
           "location": {
             "x": 5,
-            "y": 0
+            "y": 1
           },
           "size": {
             "width": 1,
@@ -719,26 +664,77 @@
         },
         "sm": {
           "location": {
-            "x": 2,
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 7,
             "y": 0
           },
           "size": {
             "width": 1,
             "height": 1
           }
-        },
-        "lg": {
-          "location": {
-            "x": 0,
-            "y": 3
-          },
-          "size": {
-            "width": 2,
-            "height": 1
-          }
         }
       }
     },
+    {
+      "id": "3f347933-2339-40ef-bd24-4c581f9eb643",
+      "name": "PhotoPrism",
+      "url": "http://duc-server.tail43ac53.ts.net:2342",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photoprism.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:2342"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
     {
       "id": "be8227d3-2a5a-4a34-a99d-9567e83c0c5f",
       "type": "calendar",
@@ -901,6 +897,59 @@
           }
         }
       }
+    },
+    {
+      "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
+      "type": "weather",
+      "properties": {
+        "displayInFahrenheit": false,
+        "location": {
+          "name": "Ho Chi Minh City",
+          "latitude": 10.82302,
+          "longitude": 106.62965
+        },
+        "displayCityName": true,
+        "displayWeekly": false,
+        "forecastDays": 5
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 3
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
     }
   ],
   "settings": {
@@ -918,7 +967,7 @@
         "enabledPing": true,
         "enabledSearchbar": true
       },
-      "pageTitle": "Homarr ⭐️",
+      "pageTitle": "Duc's DashBoard ⭐️",
       "logoImageUrl": "/imgs/logo/logo.png",
       "faviconUrl": "/imgs/favicon/favicon-squared.png",
       "backgroundImageUrl": "https://r4.wallpaperflare.com/wallpaper/650/785/115/nebula-stars-space-green-wallpaper-5bf62cbd0391bfe96524fbf94d0cec50.jpg",

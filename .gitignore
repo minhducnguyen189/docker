@@ -6,6 +6,12 @@
 jenkins/docker
 */jenkins
 fresh-rss/config
+jellyfin/config
+jellyfin/cache
+homarr/data
+photoprism/database
+photoprism/storage
+nginx-proxy-manager/data
 
 kafka-kafka-manager/kafka
 kafka-kafka-manager/zookeeper
