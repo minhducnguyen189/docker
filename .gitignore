@@ -8,10 +8,12 @@ jenkins/docker
 fresh-rss/config
 jellyfin/config
 jellyfin/cache
-homarr/data
+*/homarr/data
 photoprism/database
 photoprism/storage
 nginx-proxy-manager/data
+homepage/config
+file-browser/filebrowser.db
 
 kafka-kafka-manager/kafka
 kafka-kafka-manager/zookeeper
