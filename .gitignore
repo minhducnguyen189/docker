@@ -5,6 +5,7 @@
 */init-data
 jenkins/docker
 */jenkins
+filebrowser/filebrowser.db
 fresh-rss/config
 jellyfin/config
 jellyfin/cache
@@ -12,6 +13,7 @@ homarr/homarr/data
 photoprism/database
 photoprism/storage
 nginx-proxy-manager/data
+nginx-proxy-manager/letsencrypt
 homepage/config
 file-browser/filebrowser.db
 
