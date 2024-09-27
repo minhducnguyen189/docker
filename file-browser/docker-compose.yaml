@@ -9,7 +9,7 @@ services:
     ports:
       - 7979:80
     volumes:
-      - /home/duc/share/:/srv
+      - /home/duc/Storage/:/srv
       - ./filebrowser.db:/database.db
       - ./settings.json:/config/settings.json
     restart: unless-stopped

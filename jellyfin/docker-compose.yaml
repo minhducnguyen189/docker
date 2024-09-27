@@ -10,8 +10,8 @@ services:
     volumes:
       - ./config:/config
       - ./cache:/cache
-      - /home/duc/Music:/data/music
-      - /home/duc/Videos:/data/videos
+      - /home/duc/Storage/Music:/data/music
+      - /home/duc/Storage/Videos:/data/videos
     ports:
       - 8096:8096
     restart: 'unless-stopped'
