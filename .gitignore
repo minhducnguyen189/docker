@@ -16,6 +16,7 @@ nginx-proxy-manager/data
 nginx-proxy-manager/letsencrypt
 homepage/config
 file-browser/filebrowser.db
+dockge/data/dockge.db
 
 kafka-kafka-manager/kafka
 kafka-kafka-manager/zookeeper
