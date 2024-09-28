@@ -12,6 +12,218 @@
   ],
   "apps": [
     {
+      "id": "3f347933-2339-40ef-bd24-4c581f9eb643",
+      "name": "PhotoPrism",
+      "url": "http://duc-server.tail43ac53.ts.net:2342",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photoprism.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:2342"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "name": "Digital Garden",
+      "url": "https://2dgarden.com",
+      "behaviour": {
+        "onClickUrl": "https://homarr.dev",
+        "externalUrl": "https://2dgarden.com/",
+        "isOpeningNewTab": true
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200"
+        ]
+      },
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.udemy.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
+      "name": "Youtube",
+      "url": "https://youtube.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://youtube.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
       "id": "d716120c-7a39-48b4-8c8c-95a8389771fa",
       "name": "Mega",
       "url": "https://mega.nz/fm/HUNkkZJa",
@@ -375,6 +587,55 @@
       }
     },
     {
+      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
+      "name": "Excalidraw",
+      "url": "http://duc-server.tail43ac53.ts.net:3001",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
       "id": "c8dee350-37e1-41f3-bf50-e7eff2508130",
       "name": "Tailscale",
       "url": "https://login.tailscale.com/admin/machines",
@@ -473,11 +734,11 @@
       }
     },
     {
-      "id": "3f347933-2339-40ef-bd24-4c581f9eb643",
-      "name": "PhotoPrism",
-      "url": "http://duc-server.tail43ac53.ts.net:2342",
+      "id": "f5dcb6fa-1887-4039-839d-483c75df110c",
+      "name": "Dockge",
+      "url": "http://duc-server.tail43ac53.ts.net:5001",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photoprism.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/dockge-light.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
@@ -496,56 +757,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:2342"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 2,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
-      "name": "Excalidraw",
-      "url": "http://duc-server.tail43ac53.ts.net:3001",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:5001"
       },
       "area": {
         "type": "wrapper",
@@ -557,218 +769,6 @@
         "lg": {
           "location": {
             "x": 4,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
-      "name": "Digital Garden",
-      "url": "https://2dgarden.com",
-      "behaviour": {
-        "onClickUrl": "https://homarr.dev",
-        "externalUrl": "https://2dgarden.com/",
-        "isOpeningNewTab": true
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200"
-        ]
-      },
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mkdocs.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "md": {
-          "location": {
-            "x": 5,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        },
-        "sm": {
-          "location": {
-            "x": 0,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 2
-          }
-        },
-        "lg": {
-          "location": {
-            "x": 3,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
-      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
-      "name": "Udemy",
-      "url": "https://www.udemy.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://www.udemy.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 6,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
-      "name": "Youtube",
-      "url": "https://youtube.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://youtube.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 4,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "b92c9842-759f-4758-8aba-d6401b138ed9",
-      "name": "Yacht",
-      "url": "http://duc-server.tail43ac53.ts.net:8000",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/yacht.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:8000"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 3,
             "y": 3
           },
           "size": {
