@@ -12,6 +12,251 @@
   ],
   "apps": [
     {
+      "id": "4367b501-b76a-4275-aade-2bdac072d295",
+      "name": "Nginx Proxy Admin",
+      "url": "http://duc-server.tail43ac53.ts.net:81",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nginx-proxy-manager.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:81"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 2
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "f5dcb6fa-1887-4039-839d-483c75df110c",
+      "name": "Dockge",
+      "url": "http://duc-server.tail43ac53.ts.net:5001",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/dockge-light.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:5001"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "3f347933-2339-40ef-bd24-4c581f9eb643",
+      "name": "PhotoPrism",
+      "url": "http://duc-server.tail43ac53.ts.net:2342",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photoprism.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:2342"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
+      "name": "Youtube",
+      "url": "https://youtube.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://youtube.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "5d0f5106-21cb-4444-8c86-9e4e6f992a35",
+      "name": "Guacamole",
+      "url": "http://duc-server.tail43ac53.ts.net:8282/guacamole/#",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/guacamole.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:8282/guacamole/#/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 3
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
       "id": "57203b2c-d6df-467f-8335-2d5751436ec3",
       "name": "it-tools",
       "url": "http://duc-server.tail43ac53.ts.net:8085",
@@ -277,11 +522,11 @@
       }
     },
     {
-      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
-      "name": "Excalidraw",
-      "url": "http://duc-server.tail43ac53.ts.net:3001",
+      "id": "04f822a6-1998-4f54-9dc7-d13c68f33545",
+      "name": "Grafana",
+      "url": "http://duc-server.tail43ac53.ts.net:4000",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
@@ -300,7 +545,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:4000"
       },
       "area": {
         "type": "wrapper",
@@ -311,7 +556,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 3,
+            "x": 6,
             "y": 3
           },
           "size": {
@@ -375,11 +620,11 @@
       }
     },
     {
-      "id": "4367b501-b76a-4275-aade-2bdac072d295",
-      "name": "Nginx Proxy Admin",
-      "url": "http://duc-server.tail43ac53.ts.net:81",
+      "id": "63b7699b-098d-4857-921c-5060d5726270",
+      "name": "Gmail",
+      "url": "https://mail.google.com",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/nginx-proxy-manager.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/gmail.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
@@ -398,7 +643,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:81"
+        "externalUrl": "https://mail.google.com/"
       },
       "area": {
         "type": "wrapper",
@@ -409,7 +654,56 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 2,
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "14f7253e-ad66-4bdd-88dd-dcfc79114af1",
+      "name": "Excalidraw",
+      "url": "http://duc-server.tail43ac53.ts.net:3001",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/excalidraw-light.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column-reverse",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://duc-server.tail43ac53.ts.net:3001"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
             "y": 2
           },
           "size": {
@@ -424,11 +718,11 @@
       }
     },
     {
-      "id": "f5dcb6fa-1887-4039-839d-483c75df110c",
-      "name": "Dockge",
-      "url": "http://duc-server.tail43ac53.ts.net:5001",
+      "id": "d716120c-7a39-48b4-8c8c-95a8389771fa",
+      "name": "Mega",
+      "url": "https://mega.nz/fm/HUNkkZJa",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/dockge-light.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mega-nz.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
@@ -447,7 +741,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:5001"
+        "externalUrl": "https://mega.nz/fm/HUNkkZJa"
       },
       "area": {
         "type": "wrapper",
@@ -458,8 +752,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 4,
-            "y": 3
+            "x": 5,
+            "y": 0
           },
           "size": {
             "width": 1,
@@ -473,11 +767,11 @@
       }
     },
     {
-      "id": "3f347933-2339-40ef-bd24-4c581f9eb643",
-      "name": "PhotoPrism",
-      "url": "http://duc-server.tail43ac53.ts.net:2342",
+      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
+      "name": "Udemy",
+      "url": "https://www.udemy.com",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/photoprism.svg",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
         "appNameStatus": "normal",
         "positionAppName": "column-reverse",
         "lineClampAppName": 1,
@@ -496,7 +790,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:2342"
+        "externalUrl": "https://www.udemy.com/"
       },
       "area": {
         "type": "wrapper",
@@ -507,8 +801,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 2,
-            "y": 3
+            "x": 3,
+            "y": 1
           },
           "size": {
             "width": 1,
@@ -576,51 +870,6 @@
         },
         "lg": {
           "location": {
-            "x": 3,
-            "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      }
-    },
-    {
-      "id": "684a2915-a527-43c7-b77a-b2950706d0fd",
-      "name": "Udemy",
-      "url": "https://www.udemy.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/udemy.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://www.udemy.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
             "x": 6,
             "y": 0
           },
@@ -629,157 +878,6 @@
             "height": 1
           }
         }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "03231404-9123-4757-9ef2-3c054d7c9b33",
-      "name": "Youtube",
-      "url": "https://youtube.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://youtube.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 4,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "d716120c-7a39-48b4-8c8c-95a8389771fa",
-      "name": "Mega",
-      "url": "https://mega.nz/fm/HUNkkZJa",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/mega-nz.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://mega.nz/fm/HUNkkZJa"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 3,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "5d0f5106-21cb-4444-8c86-9e4e6f992a35",
-      "name": "Guacamole",
-      "url": "http://duc-server.tail43ac53.ts.net:8282/guacamole/#",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/guacamole.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column-reverse",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": true,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://duc-server.tail43ac53.ts.net:8282/guacamole/#/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "default"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 5,
-            "y": 3
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
       }
     },
     {
@@ -817,8 +915,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 5,
-            "y": 0
+            "x": 4,
+            "y": 1
           },
           "size": {
             "width": 1,
