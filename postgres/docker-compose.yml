@@ -3,7 +3,7 @@ services:
   db:
     image: postgres
     container_name: postgres-local
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: password

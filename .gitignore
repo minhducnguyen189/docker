@@ -20,6 +20,8 @@ dockge/data/dockge.db
 guacamole/data
 guacamole/drive
 guacamole/record
+monitor/grafana-db
+monitor/prometheus-db
 
 kafka-kafka-manager/kafka
 kafka-kafka-manager/zookeeper
